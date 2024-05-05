@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bingo</h1>
+        <div class="game">
+            <div class="roulette">
+                <button onclick="spinRoulette()">Girar Ruleta</button>
+                <p id="rouletteResult"></p>
+            </div>
+            <div class="players">
+                <div class="player" id="player1">
+                    <h2>Jugador 1</h2>
+                    <table id="card1" class="bingo-card"></table>
+                </div>
+                <div class="player" id="player2">
+                    <h2>Jugador 2</h2>
+                    <table id="card2" class="bingo-card"></table>
+                </div>
+                <div class="player" id="player3">
+                    <h2>Jugador 3</h2>
+                    <table id="card3" class="bingo-card"></table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
